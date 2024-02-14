@@ -81,6 +81,7 @@
             this.areaButton.TabIndex = 5;
             this.areaButton.Text = "area";
             this.areaButton.UseVisualStyleBackColor = true;
+            this.areaButton.Click += new System.EventHandler(this.areaButton_Click);
             // 
             // carpetButton
             // 
@@ -92,6 +93,7 @@
             this.carpetButton.TabIndex = 4;
             this.carpetButton.Text = "carpet";
             this.carpetButton.UseVisualStyleBackColor = true;
+            this.carpetButton.Click += new System.EventHandler(this.carpetButton_Click);
             // 
             // billButton
             // 
@@ -103,6 +105,7 @@
             this.billButton.TabIndex = 6;
             this.billButton.Text = "bill";
             this.billButton.UseVisualStyleBackColor = true;
+            this.billButton.Click += new System.EventHandler(this.billButton_Click);
             // 
             // Form1
             // 
