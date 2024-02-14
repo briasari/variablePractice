@@ -64,7 +64,7 @@ namespace variablePractice
 
             outputLabel.Text = $"The area of the room with dimensions {length}m x {width}m is {area}m^2";
             outputLabel.Text += $"\n\nThe cost to carpet this area at ${costPerMeter} per square metre is {totalCost}";
-        }
+        } 
 
         private void billButton_Click(object sender, EventArgs e)
         {
